@@ -1,0 +1,135 @@
+:root{
+    --bg-principal : #2E948A;
+    --bg-secundario : #FF4081;
+}
+
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+
+.bg-principal{
+    background-color: var(--bg-principal)   ;
+}
+.bg-secundario{
+    background-color: var(--bg-secundario);
+}
+
+.text-color-primario{
+color: var(--bg-principal);
+}
+
+
+.text-color-secundario{
+color: var(--bg-secundario);
+}
+
+
+/*Botao preencido secundario*/
+.btn-all-primario{
+    background-color: var(--bg-principal);
+    color: #fff;
+    border-radius: 30px;
+    border: 1px solid #fff;
+}  
+
+.btn-all-primario:hover{
+    background-color: var(--bg-secundario);
+    border: 1px solid #000;
+}
+
+
+.btn-all-secundario{
+    background-color: var(--bg-secundario);
+    color: #fff;
+    border-radius: 30px;
+    border: var(--bg-secundario);
+}
+
+.btn-all-secundario:hover{
+    background-color: var(--bg-principal);
+    border: 1px solid;
+    border-color: var(--bg-secundario);
+}
+
+
+
+
+/*outline*/
+.btn-secundario{
+    color: var(--bg-secundario);
+    border-color: var(--bg-secundario);
+    border-radius: 30px;
+}
+
+.btn-secundario:hover{
+    background-color: var(--bg-secundario);
+    border-color: var(--bg-principal);
+}
+/*outline*/
+
+
+.card-borda{
+    border: none;
+}
+
+.img-card{
+    width: 288px;
+    height: 270px;
+}
+
+h5{
+    font-size: 20px;
+}
+
+
+.img-comments{
+    width: 104px;
+    height: 104px;
+}
+
+.footerlist{
+    list-style: none;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+/*
+footer  a {
+    color: #fff;
+}
+*/
+a{
+    text-decoration: none;
+    list-style: none;
+    color: none;
+}
+
+a:hover{
+    color: none;
+    
+}
+
+.content span{
+    font-size: 1.6em;
+}
+
+/*
+.modal-size{
+    width: 800px;
+    height: 606px;
+}
+
+*/
+/*
+.img{
+    width: 238px;
+    height: 270px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+}
+*/
